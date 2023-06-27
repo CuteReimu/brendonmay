@@ -173,4 +173,7 @@ translate_dict = {
         "这是一个理论概率计算器，它将为您提供关于您火花的目标的各种非常详细的统计数据。",
     "This tool will help you determine your various stat equivalences for your character. Particularly helpful when determining flaming goals.":
         "这个工具将帮助您确定您的角色的各种属性等价值。在确定火花的目标时特别有用。",
+    "Hello, Maplers!": "冒险者，您好！",
+    "Below you will find a collection of my Maplestory tools. It is my hope that you will make good use of them. Happy Mapling!":
+        "下面您会看到我的冒险岛工具的集合。我希望您能好好利用它们。祝您冒险快乐！",
 }

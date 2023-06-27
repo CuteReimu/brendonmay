@@ -4,22 +4,24 @@ from pathlib import Path
 
 from translate_dict import translate_dict
 
-regexp = re.compile(r'>(.+?)<')
+regexp = re.compile(r'>(.*?)<')
 
 
 def translate(s):
     s0 = s.strip()
-    s1 = translate_dict.get(s0)
-    if s1:
-        return s.replace(s0, s1)
+    if s0:
+        s1 = translate_dict.get(s0)
+        if s1:
+            return s.replace(s0, s1)
     matcher = regexp.search(s)
     while matcher:
         g = matcher.group(1)
         s0 = g.strip()
-        s1 = translate_dict.get(s0)
-        if s1:
-            return s[:matcher.start()] + ">" + g.replace(s0, s1) + "<" + s[matcher.end():]
-        matcher = regexp.search(s0, pos=matcher.end())
+        if s0:
+            s1 = translate_dict.get(s0)
+            if s1:
+                return s[:matcher.start()] + ">" + g.replace(s0, s1) + "<" + s[matcher.end():]
+        matcher = regexp.search(s, pos=matcher.end())
     return s
 
 

@@ -54,7 +54,7 @@ translate_dict = {
     "Use my": "使用我的",
     "Stat Equivalent Calculator": "属性等价计算器",
     "to determine the ratios for your character. Leave this section alone if you are unsure.</h5>":
-        "来为你的角色确定比例。如果你不确定，请不要理会本部分",
+        "来为您的角色确定比例。如果您不确定，请不要理会本部分",
     "1 All Stat % = ": "1全属性%=",
     "Main Stat": "主属性",
     "Secondary Stat": "副属性",
@@ -68,7 +68,7 @@ translate_dict = {
     "HP Tier": "血量属性等级",
     "Calculator": "计算器",
     "This tool is designed to optimize your hyper stats against end-game bosses.":
-        "该工具旨在优化你的超级属性，以对抗游戏的终极Boss",
+        "该工具旨在优化您的超级属性，以对抗游戏的终极Boss",
     "SuckHard's Star Force Calculator": "SuckHard的星之力计算器",
     "Experimental Probability": "实验概率",
     "Tyrant": "暴君",
@@ -140,4 +140,37 @@ translate_dict = {
     "Desired Stats": "目标属性",
     '<option value="allStat">All Stat (including 1/3rd of STR, LUK, and DEX for Xenon)</option>':
         '<option value="allStat">全属性（尖兵，1点力量运气敏捷算作1/3点全属性）</option>',
+    "SuckHard's Maplestory Calculators": "SuckHard的冒险岛计算器",
+    "Starforce Calculator": "星之力计算器",
+    "Cubing Calculator": "洗魔方计算器",
+    "WSE Calculator": "三大件计算器",
+    "Inner Ability Calculator": "内在能力计算器",
+    "Hyper Stat Calculator": "超级属性计算器",
+    "Legion Calculator": "联盟计算器",
+    "Flaming Calculator": "火花计算器",
+    "Stat Equivalence Tool": "属性等价计算器",
+    "Click Here for Starforce Calculator": "跳转到星之力计算器",
+    "Click Here for Cubing Calculator": "跳转到洗魔方计算器",
+    "Click Here for WSE Calculator": "跳转到三大件计算器",
+    "Click Here for Inner Ability Calculator": "跳转到内在能力计算器",
+    "Click Here for Hyper Stat Calculator": "跳转到超级属性计算器",
+    "Click Here for Legion Calculator": "跳转到联盟计算器",
+    "Click Here for Flaming Calculator": "跳转到火花计算器",
+    "Click Here for Stat Equivalence Tool": "跳转到属性等价计算器",
+    "This is an experimental probability calculator which will provide you with a wide variety of very detailed statistics with respect to your starforcing goals.":
+        "这是一个实验性的概率计算器，它将为您提供关于您的星之力目标的各种非常详细的统计数据。",
+    "After combining data-mined cubing probabilities and reputable experimental data, I created a tool which will provide you with statistics on your cubing goals.":
+        "在结合了洗魔方概率数据和值得信赖的实验数据后，我创建了一个工具，可以为您提供有关洗魔方目标的统计数据。",
+    "A simple and effective tool you can use to see which potential lines on your weapon/secondary/emblem will maximize your damage output.":
+        "一个简单有效的工具，您可以使用它来查看您的武器/副武器/纹章上的哪些潜在能力将最大限度地提高您的伤害输出。",
+    "This tool will help you determine the expected cost of reaching your Inner Ability goals. This tool will optimize the method of reaching your goal as well!":
+        "这个工具将帮助您确定达到内在能力目标的预期成本。这个工具也会优化达到目标的方法！",
+    "An intuitive and easy to use tool that you can use to determine which hyper stat distribution will optimize your damage output on end-game bosses.":
+        "这是一个直观易用的工具，您可以使用它来确定哪种超级属性分布将优化您在对抗游戏的终极Boss的伤害输出。",
+    "This tool will optimize your hyper stats and legion board relative to your current WSE. Use this tool to maximize your damage on end-game bosses!":
+        "这个工具将基于您当前的三大件来优化您的超级属性和联盟面板。使用这个工具可以最大限度地提高您对抗游戏的终极Boss的伤害！",
+    "This is an theoretical probability calculator which will provide you with a wide variety of very detailed statistics with respect to your flaming goals.":
+        "这是一个理论概率计算器，它将为您提供关于您火花的目标的各种非常详细的统计数据。",
+    "This tool will help you determine your various stat equivalences for your character. Particularly helpful when determining flaming goals.":
+        "这个工具将帮助您确定您的角色的各种属性等价值。在确定火花的目标时特别有用。",
 }

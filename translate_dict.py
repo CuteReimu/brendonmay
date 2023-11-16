@@ -73,7 +73,7 @@ translate_dict = {
     "Experimental Probability": "实验概率",
     "Tyrant": "暴君",
     "No star catching": "取消抓星星",
-    "+4.5% multiplicative": "+4.5%倍率",
+    "+5% multiplicative": "+5%倍率",
     "Safeguard": "保护",
     "No safeguard": "不保护",
     "Item Level:": "道具等级：",

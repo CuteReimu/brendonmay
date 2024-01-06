@@ -17,11 +17,13 @@ def translate(s):
     while matcher:
         g = matcher.group(1)
         s0 = g.strip()
+        delta = 0
         if s0:
             s1 = translate_dict.get(s0)
             if s1:
-                return s[:matcher.start()] + ">" + g.replace(s0, s1) + "<" + s[matcher.end():]
-        matcher = regexp.search(s, pos=matcher.end())
+                s = s[:matcher.start()] + ">" + g.replace(s0, s1) + "<" + s[matcher.end():]
+                delta = len(s0) - len(s1)
+        matcher = regexp.search(s, pos=matcher.end() - delta)
     return s
 
 

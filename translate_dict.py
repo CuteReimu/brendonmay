@@ -212,4 +212,7 @@ translate_dict = {
     "Current Critical Rate Bonus": "当前额外暴击率",
     "Desired Critical Rate Bonus": "目标额外暴击率",
     "Optimize": "优化",
+    "Reboot": "R区",
+    "Non-Reboot": "普通区",
+    "Optimize Hyper Stats for Bossing": "为打Boss优化超级属性",
 }

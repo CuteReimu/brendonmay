@@ -4,7 +4,7 @@ from pathlib import Path
 
 from translate_dict import translate_dict
 
-regexp = re.compile(r'>(.*?)<')
+regexp = re.compile(r'>\s*(.*?)\s*<')
 
 
 def translate(s):
@@ -20,7 +20,7 @@ def translate(s):
         if s0:
             s1 = translate_dict.get(s0)
             if s1:
-                return s[:matcher.start()] + ">" + g.replace(s0, s1) + "<" + s[matcher.end():]
+                return s[:matcher.start(1)] + g.replace(s0, s1) + s[matcher.end(1):]
         matcher = regexp.search(s, pos=matcher.end())
     return s
 

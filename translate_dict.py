@@ -1,7 +1,7 @@
 translate_dict = {
-    "SuckHard's Calculators": "SuckHard的计算器",
-    "SuckHard's Cubing Calculator": "SuckHard的魔方计算器",
-    "SuckHard's Maplestory Tools": "SuckHard的冒险岛工具箱",
+    "MathBro's Calculators": "MathBro的计算器",
+    "MathBro's Cubing Calculator": "MathBro的魔方计算器",
+    "MathBro's Maplestory Tools": "MathBro的冒险岛工具箱",
     "Cubing": "魔方",
     "(current)": "（当前）",
     "WSE": "三大件",

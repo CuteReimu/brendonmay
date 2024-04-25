@@ -1,5 +1,5 @@
 translate_dict = {
-    "MathBro's Maplestory Calculator": "MathBro的冒险岛计算器",
+    "MathBro's Maplestory Calculators": "MathBro的冒险岛计算器",
     "MathBro's Maplestory Tools": "MathBro的冒险岛工具箱",
     "Cubing": "魔方",
     "(current)": "（当前）",

@@ -1,5 +1,7 @@
 #!/bin/sh
-git submodule foreach git reset --hard
+cd brendonmay.github.io
+git reset --hard
+cd ..
 git reset --hard
 git pull
 git submodule update

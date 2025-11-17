@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 cd brendonmay.github.io
 git reset --hard
 cd ..
